@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spider-Man Unmasked: A Curated Archive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="intro-screen" class="fade-in">
+    <div id="title-section">
+      <h1>Spider-Man Unmasked</h1>
+      <p>Explore the many faces behind the mask — a curated archive of Spider-Man representations.</p>
+    </div>
+    <div id="character-section">
+      <img id="spider-image" src="images/spiderman_default.png" alt="Spider-Man standing" />
+    </div>
+  </div>
+
+  <div id="metadata-screen" style="display: none;">
+    <div id="metadata-header">
+      <h1>Spider-Man Unmasked</h1>
+    </div>
+    <div id="unmasked-face">
+      <img id="unmasked-image" src="" alt="Unmasked Spider-Man" />
+    </div>
+    <div id="metadata-columns">
+      <img id="collection-image" src="" alt="Collection Item" />
+      <div id="collection-data">
+        <p id="collection-title"></p>
+        <p id="collection-creator"></p>
+        <p id="collection-year"></p>
+        <p id="curatorial-note"></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="end-screen" style="display: none; padding: 50px;">
+    <h1>All Spider-Men Explored!</h1>
+    <p>Thank you for exploring the Spider-Verse Archive.</p>
+    <a href="collection.html" id="collection-button">Browse the Full Collection</a>
+  </div>
+
+  <div id="navigation" class="fade-hidden">
+    <a href="collection.html" id="collection-button">View Full Collection</a>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
